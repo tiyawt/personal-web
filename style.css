@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Quicksand:wght@300..700&display=swap');
 
 * {
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Pixelify Sans", sans-serif;
@@ -8,7 +9,7 @@
 
 body {
   background: linear-gradient(-180deg, #d6dac8, #fbf3d5);
-  height: 100vh;
+  height: 100%;
 }
 
 .home {
@@ -16,16 +17,12 @@ body {
   color: #160059;
 }
 
-img {
-  width: 70px;
-  height: auto;
-}
-
 .hamburger {
   display: none;
   font-size: 28px;
   color: #d6a99d;    
   cursor: pointer;
+  padding-left: 24px;
 }
 
 .btn-more {
@@ -66,12 +63,49 @@ img {
 
 .nav-links-ham {
   display: flex;
+  margin-top: 10px;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .nav-links-ham > li {
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #d6a99d;
+  width: 100%;
+}
+
+.nav-links-ham > li > a {
+  padding-left: 5px;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #d6a99d;
+  width: 100%;
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-foo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 8px 0px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #160059;
+}
+
+.container-foo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 @keyframes char {
@@ -95,7 +129,7 @@ img {
 @media (max-width: 480px) {
   body {
     font-size: 14px;
-    padding: 20px;
+    padding-top: 20px;
     
   }
   
@@ -110,7 +144,8 @@ img {
   }
 
   .logo {
-    width: 80vw;
+    width: 100vw;
+    height: auto;
   }
 
   .logo > img {
@@ -143,5 +178,32 @@ img {
     animation: char 3s ease-in-out infinite;
   }
 
+  .logo-footer {
+    width: 24vw;
+  }
+
+  .footer-menu > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .contact-footer {
+    padding: 8px;
+    text-decoration: none;
+    background-color: #fbf3d5;
+    border-radius: 5px;
+    
+  }
+  .sosmed-foo {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+  }
   
 }
