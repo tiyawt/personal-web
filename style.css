@@ -29,15 +29,18 @@ img {
 }
 
 .btn-more {
-  margin-top: 20px;
+  
   padding: 12px;
   background-color: #d6a99d;
-  border: none;
   border-radius: 5px;
   font-size: 14px;
   font-weight: bold;
   color: #fbf3d5;
-  
+  text-decoration: none;
+}
+
+.desc {
+  margin-bottom: 40px;
 }
 
 #modal {
