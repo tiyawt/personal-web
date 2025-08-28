@@ -220,6 +220,56 @@ body {
   gap: 10px;
 }
 
+.skill-logo {
+  width: 5vw;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10vh;
+  color: #EABB70;
+}
+
+.skills-content>h1 {
+  font-size: 3rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vw;
+  padding: 0px 60px;
+
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #faa7d1;
+  width: 12vw;
+  height: 24vh;
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid #EABB70;
+  color: #312B8E;
+  text-align: center;
+  font-size: 12px;
+}
+
+.card-container:hover{
+  transform: translateY(8px);
+}
+
 .copyright {
   font-size: 18px;
   color: #312B8E;
@@ -313,6 +363,7 @@ body {
 
   }
 
+
   .about-content>p {
     font-size: 1rem;
   }
@@ -325,6 +376,36 @@ body {
     padding: 40px;
     gap: 10px;
   }
+
+  .skills-content>h1 {
+    font-size: 2rem;
+    margin-top: 7vh;
+  }
+
+  .skill-logo {
+  width: 15vw;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+  .card-container {
+  width: 38vw;
+  height: 20vh;
+  border: 1px solid #EABB70;
+  color: #312B8E;
+  text-align: center;
+  font-size: 10px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 30px;
+
+}
 
   .hero {
     margin-top: 60px;
