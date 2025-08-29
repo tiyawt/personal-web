@@ -99,10 +99,12 @@ body {
   flex-direction: row;
   gap: 30px;
   align-items: center;
+
 }
 
 .nav-links>li {
   list-style: none;
+
 }
 
 .nav-links>li:hover {
@@ -110,10 +112,14 @@ body {
 
 }
 
+.nav-links>li>a {
+  font-size: 20px;
+}
+
 .nav-links>li:not(:last-child)>a {
   text-decoration: none;
   color: #EABB70;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .nav-links>li:not(:last-child)>a:hover {
@@ -400,7 +406,7 @@ body {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  width: 24vw;
+  width: 30vw;
   justify-content: space-between;
   gap: 12px;
 }
@@ -439,7 +445,15 @@ body {
   }
 
   .card-container {
-    width: 20vw;
+    width: 25vw;
+  }
+
+  .nav-links>li>a {
+    font-size: 16px;
+  }
+
+  .nav-links>li:not(:last-child)>a {
+    font-size: 16px;
   }
 
   .skill-logo {
@@ -457,7 +471,7 @@ body {
   }
 
   .footer-menu>ul {
-    width: 30vw;
+    width: 50vw;
   }
 }
 
