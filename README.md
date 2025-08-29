@@ -9,7 +9,7 @@ A simple and responsive personal website built with **HTML**, **CSS**, and **Jav
 - Contact links
 
 ## Tech Stack
-- HTML5  
-- CSS3  
+- HTML  
+- CSS  
 - JavaScript (Vanilla JS)
 
