@@ -9,4 +9,3 @@ hamburgerMenu.addEventListener('click', () => {
 closeHam.addEventListener('click', () => {
     modal.style.display = 'none'
 })
-
